@@ -48,5 +48,5 @@ class PasswordChecker:
         return False
 
 
-password = PasswordChecker(input("Enter you password: "))
+password = PasswordChecker(input("Enter you password:"))
 print(PasswordChecker.AllChecker(password))
